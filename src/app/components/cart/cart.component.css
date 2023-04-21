@@ -1,0 +1,308 @@
+
+ /* nav start */
+nav{
+   height: 56px;
+   width: 100%;
+   background-color: #287FF0;
+   display: flex;
+   justify-content: center;
+   
+ }
+ .navDiv{
+   height: 56px;
+   width: 60px;
+   /* border: 1px solid; */
+ }
+ /* flipkart name */
+ #div1
+ {
+  flex-basis: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .text1
+{
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+  color: white;
+  
+}
+.span1
+{
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}
+ 
+ /* end */
+ /* inpute start */
+ #div2
+ {
+   width: 500px;
+   display: flex;
+   justify-content: center;
+ }
+ #input1
+ {
+ height: 36px;
+ width: 435px;
+ margin: 9px;
+ }
+ #nav-button
+ {
+   border:  solid #fff;
+   background-color: #fff;
+   height: 35px;
+   width: 44px;
+   border-radius: 2px;
+   cursor: pointer;
+   padding: 4px 12px 0 8px;
+   margin: 10px 0px 0px -15px;
+ }
+ /* inpute end */
+ 
+ /* login */
+ #div3
+ {
+   flex-basis: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ #div3 a{
+   
+   font-weight: 500;
+   background-color: #fff;
+   cursor: pointer;
+   border-radius: 2px;
+   height: 32px;
+   padding: 5px 40px;
+   border: 1px solid #dbdbdb;
+ }
+ /* nav :end */
+ 
+ .mat2
+ {
+  height: 100px;
+ }
+ 
+ /* till alinment */
+ 
+
+ /* cart design */
+.cartDiv
+{
+   height: 400px;
+   width: 1300px;
+  
+   margin: 0 auto;
+   margin-top: 50px;
+   margin-top: 10px;
+   
+
+}
+#imgc
+{
+   height: 162px;
+   width: 200;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   /* border: 1px solid; */
+
+}
+.textc{
+   margin-top: 25px;
+   text-align: center;
+   font-size: 18px;
+   
+
+
+}
+.textc2
+{
+   margin-top: 20px;
+ 
+ text-align: center;
+}
+.btn
+{  
+   margin-left: 570px;
+   
+}
+#clogin
+{
+   height: 40px;
+   width: 150px;
+   background: #fb641b;
+   box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+   border: none;
+   color: #fff;
+  
+}
+/* full cart design */
+.fullcart-d
+{
+  height: 200px;
+  width: 1300px;
+  
+  margin: 0 auto;
+  /* background-color: aqua; */
+  display: flex;
+margin-top: 10px;
+  
+  gap: 30px;
+}
+.cartfull-1
+{
+  width: 65%;
+  height: 500px;
+  
+  overflow:auto; 
+
+}
+.c-div
+{
+  height:195px ;
+  width: 750px;
+  border: 1px salmon;
+  /* background-color: salmon; */
+  display: flex;
+  justify-content: space-around;
+}
+.c-img
+{
+height: 112px;
+width: 112px;
+/* border: 1px solid; */
+
+}
+.c-details
+{
+  height: 160px;
+  width: 430px;
+  /* border: 1px solid; */
+
+}
+.c-rem-btn
+{
+  height: 35px;
+  width: 565px;
+  /* border: 1px solid; */
+  display: flex;
+  gap: 20px;
+  margin-left: 130px;
+  align-items: center;
+
+}
+.c-rem-btn a
+{
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+
+}
+.cbtn
+{
+  position: absolute;
+  margin-top: 500px;
+  width: 825px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  
+  
+}
+.cbtn button
+{    background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  border: none;
+  color: #fff;
+  width: 250px;
+  height: 45px;
+  
+}
+.cbtn button span
+{
+  color: #ffff;
+  font-weight: 500;
+}
+.price-details
+{
+  width:35% ;
+  height: 380px;
+}
+.p-div
+{
+  height: 200px;
+  width: 400px;
+  border-bottom: 1px solid;
+  
+}
+.p-con
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.p-con h5
+{
+  font-weight: 700;
+  font-size: 15px;
+}
+.p-amount
+{
+  width: 400px;
+  height: 65px;
+  /* border: 1px solid; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.p-amount h3{
+  padding: 15px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.main
+{
+  display: flex;
+  flex-direction: column;
+}
+
+/* plus minus design */
+.quantity
+{
+  display: flex;
+  background-color: #287FF0;
+  height: 30px;
+  width: 200px;
+  margin-top: 70px;
+ 
+}
+.input-text
+{
+  width: 50px;
+  text-align: center;
+}
+.pm
+{
+  cursor: pointer;
+  /* padding: 1px 22px 0px 10px; */
+  height: 30px;
+  width: 79px;
+  font-size: 35px;
+}
+
+/* footer */
+.footer
+{
+  margin-top: 500px;
+ 
+}

@@ -1,0 +1,278 @@
+/* nav start */
+nav{
+  /* margin-top: -20px; */
+  height: 56px;
+  width: 100%;
+  background-color: #287FF0;
+  display: flex;
+  justify-content: center;
+}
+.navv{
+  position: fixed;
+  z-index: 1;
+}
+.navDiv{
+  height: 56px;
+  width: 60px;
+  /* border: 1px solid; */
+}
+/* flipkart name */
+#div1
+{
+ flex-basis: 75px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.text1
+{
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+  color: white;
+  
+}
+.span1
+{
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}
+/* end */
+/* inpute start */
+#div2
+{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+#input1
+{
+height: 36px;
+width: 435px;
+margin: 9px;
+}
+button
+{
+  border:  solid #fff;
+  background-color: #fff;
+  height: 35px;
+  width: 44px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 4px 12px 0 8px;
+  margin: 10px 0px 0px -15px;
+}
+/* inpute end */
+
+/* login */
+#div3
+{
+  flex-basis: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#div3 a{
+  color: #2874f0;
+  font-weight: 500;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 32px;
+  padding: 5px 40px;
+  border: 1px solid #dbdbdb;
+}
+
+
+#div4
+{
+  flex-basis: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.span2
+{
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: .1px;
+    font-weight: 500;
+}
+
+#div5
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#div5 h5{
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 15px;
+  color: white;
+}
+
+#div6
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div6 a{
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-weight: 500;
+  color: #fff;
+}
+mat-icon
+{
+  color: white;
+}
+a{
+  cursor: pointer;
+}
+/* nav end */
+
+/* collection start */
+
+
+.matcard
+{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 75px;
+    
+}
+.row
+{
+  height: auto;
+  width: 1500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+  
+}
+.card
+{
+  height: 500px;
+  width: 380px;
+  /* border: 1px solid; */
+}
+/* collection end */
+/* till alinment */
+
+.matcard
+{
+  height: 94px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+
+}
+.head2
+{ height: 95px;
+  width: 120px;
+    /* border: 1px solid; */
+    margin-top: -17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mat-img
+{
+  height: 75px;
+  width: 75px;
+}
+#mat-text
+{
+  font-size: larger;
+  font-weight: 500;
+}
+#divhead2-1
+{
+  margin-top: -17px;
+}
+
+/* na end */
+
+/* design product details */
+mat-card
+{
+  height: 350px;
+  width: 350px;
+}
+.pd-title 
+{
+  color: #878787;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+   overflow: hidden;
+  text-overflow: ellipsis;
+ max-width: 100ch;
+
+}
+.pd
+{
+  height: 120px;
+  width: 350px;
+  /* background-color: #ffe500; */
+  display: flex;
+  flex-direction: column;
+}
+.pd-price
+{
+  display: flex;
+  justify-content: center;
+ 
+  justify-content: space-around ;
+  font: 16px ;
+  font-weight: 600;
+  font-size: large;
+}
+#pd-span
+{
+color: green;
+}
+.pd-cat h5
+{
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+}
+
+.pd-icon
+{
+  color: white;
+}
+#btn
+{
+   background-color: #fff;
+  height: 51px;
+  width: 240px;
+  cursor: pointer;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  font-family: Roboto,Arial,sans-serif;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ff9f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+    margin-left: 55px;
+}
+
+

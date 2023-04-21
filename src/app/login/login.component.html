@@ -1,0 +1,18 @@
+
+<body>
+	<div class="login-box">
+		<img src="https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_960_720.png" class="avatar">
+		<h1>Login Here</h1>
+		<form [formGroup]="loginform">
+			<p>Username</p>
+			<input type="text" name="username" placeholder="Enter Username" formControlName="user">
+			<p>Password</p>
+			<input type="password" name="password" placeholder="Enter Password" formControlName="pass">
+			<button (click)="login()">login</button>
+			<div class="link"><a href="#">Forgot Password</a> | <a href="#">Create an Account</a></div>
+			
+		</form>
+	</div>
+</body>
+
+
